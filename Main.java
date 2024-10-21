@@ -40,6 +40,7 @@ public class Main {
       System.out.println(randInt);
 
       // 2. Use that numebr in 8 if statements to print a different response
+      // every "if block": is like starting a new line of questioning
 
       if (randInt == 1){
          System.out.println("It is looking good buddy...");
@@ -65,6 +66,21 @@ public class Main {
       if (randInt == 8){
          System.out.println("You will do amazing!");
       }
+
+      // TWO-WAY SELECTION: IF block ocuped with an ELSE block
+      // is like "if this is true, do soemthing", OTHERWISE, "do something else"
+      int myAge = 16;
+      // BOOLEAN EXPRESSION here is "myAge >= 17"
+      if (myAge >= 17) {
+         System.out.println("You can get yoru icense in NY!");
+      }
+      // else is coupled with the if statement above
+      // so you do NOT need to specify a CONDITION/EXPRESSION
+      else {
+         System.out.println("You're too young to drive in NY");
+      }
+     
+
 
 
    }
